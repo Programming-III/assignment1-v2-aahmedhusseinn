@@ -10,9 +10,9 @@ string name;
 int id;
 
 public:
-    Person();
-    Person(string name, int id);
-    virtual ~Person();
+Person();
+Person(string name, int id);
+virtual ~Person();
 
     void setName(string name);
     void setId(int id);
