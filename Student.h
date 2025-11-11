@@ -7,13 +7,13 @@
 
 class Student:public Person {
 private:
-    int yearLevel;
-    string major;
+int yearLevel;
+string major;
 
 public:
-    Student();
-    Student(string name, int id, int yearLevel, string major);
-    ~Student();
+Student();
+Student(string name, int id, int yearLevel, string major);
+~Student();
 
     void setYearLevel(int year);
     void setMajor(string major);
