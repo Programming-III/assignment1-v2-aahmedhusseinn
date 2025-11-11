@@ -17,9 +17,9 @@ public:
     void setName(string name);
     void setId(int id);
 
-    string getName() const;
-    int getId() const;
+    string getName();
+    int getId();
 
-    virtual void display() const;
+    virtual void display();
 };
 #endif
